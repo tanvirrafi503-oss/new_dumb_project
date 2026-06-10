@@ -1,0 +1,4 @@
+-keep class com.vaultapp.data.** { *; }
+-keep class com.vaultapp.security.** { *; }
+-keepattributes *Annotation*
+-keep class androidx.room.** { *; }

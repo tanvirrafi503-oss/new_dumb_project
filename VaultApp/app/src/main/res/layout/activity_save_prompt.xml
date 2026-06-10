@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#161B22">
+
+    <TextView
+        android:id="@+id/tvPromptTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvPromptUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#9E9E9E"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSaveNow"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Save to Vault"
+        android:backgroundTint="#1A237E"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Dismiss"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+</LinearLayout>
